@@ -11,6 +11,8 @@ import numpy as np
 with open ('aoc_data_02.txt') as f:
     text = f.read()
 
+data = (np.loadtxt(fname='aoc_data_02.txt',dtype=str))
+
 #Define rock paper scissors function
 def rock_paper_scissors(round_tuple, player_1, player_2):
     """
@@ -55,7 +57,6 @@ line_sep = np.array(text.split('\n\n'))
 round_split = (np.char.split(np.array(line_sep),sep='\n'))
 #Create the object as an array
 round_split = (np.array(round_split[0]))
-
 
 ## For Part 1: 
 
