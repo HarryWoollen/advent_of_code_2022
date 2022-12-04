@@ -4,7 +4,7 @@
 import numpy as np
 
 #Open data
-with open ('aoc_1_data.txt') as f:
+with open ('aoc_data_01.txt') as f:
     text = f.read()
 
 #Seperate data on new empty lines, this groups each set together. E.g. ('17998\n7761')

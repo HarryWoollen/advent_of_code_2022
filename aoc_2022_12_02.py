@@ -8,7 +8,7 @@
 import numpy as np
 
 #Open data
-with open ('aoc_2_data.txt') as f:
+with open ('aoc_data_02.txt') as f:
     text = f.read()
 
 #Define rock paper scissors function
