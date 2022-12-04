@@ -2,3 +2,5 @@
 Repository for the advent of code 2022, includes data provided.
 
 **Language** : Python 3.11
+
+**Packages** : Numpy 1.23.5
